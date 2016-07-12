@@ -41,7 +41,7 @@ function DownloadItemsByPage(pageId) {
             var itemList = JSON.parse(body);
             itemList.forEach(function(item) {
                 console.log(item.id + '\t' + item.name);
-                Item.create(item);
+                Item.upsert(item);
             });
             pageId++;
             if (res.headers['x-page-total'] && pageId < res.headers['x-page-total']) {

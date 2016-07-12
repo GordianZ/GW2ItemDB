@@ -38,3 +38,4 @@ jspm_packages
 
 # Generated SQLite db files
 *.db
+*.db-journal
