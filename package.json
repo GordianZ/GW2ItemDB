@@ -1,0 +1,25 @@
+{
+  "name": "GW2ItemDB",
+  "version": "1.0.0",
+  "description": "Generate Guild Wars 2's item database",
+  "main": "index.js",
+  "dependencies": {
+    "sequelize": "^3.23.4",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GordianZ/GW2ItemDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GordianZ/GW2ItemDB/issues"
+  },
+  "homepage": "https://github.com/GordianZ/GW2ItemDB#readme"
+}
