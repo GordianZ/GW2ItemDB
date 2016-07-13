@@ -51,5 +51,6 @@ function DownloadItemsByPage(pageId) {
         res.resume();
     }).on('error', (e) => {
         console.log(`Got error: ${e.message}`);
+        DownloadItemsByPage(pageId);
     });
 }
